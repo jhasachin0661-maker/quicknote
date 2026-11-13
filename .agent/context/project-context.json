@@ -1,0 +1,34 @@
+{
+  "project": {
+    "name": "QuickNote",
+    "mode": "standalone-client-only",
+    "profile": "Web App",
+    "data_sensitivity": "local-storage"
+  },
+  "stack": {
+    "frontend": "Next.js 16, React 19, TypeScript 5, Tailwind CSS 4, Lucide Icons, Browser LocalStorage",
+    "backend": "None (Backend-free, client-side persistence)",
+    "database": "None (HTML5 LocalStorage directly in browser)"
+  },
+  "commands": {
+    "frontend_dev": { "cmd": "npm --prefix frontend run dev", "verified": true, "last_exit": 0 },
+    "frontend_build": { "cmd": "npm --prefix frontend run build", "verified": true, "last_exit": 0 }
+  },
+  "environment": {
+    "target": "browser-local"
+  },
+  "status": {
+    "build": "VERIFIED",
+    "tests": "VERIFIED",
+    "lint": "VERIFIED",
+    "types": "VERIFIED",
+    "security": "VERIFIED"
+  },
+  "knowledge": {
+    "verified": [
+      "Simplified architecture to 100% backend-free and database-free implementation",
+      "Notes are created, edited, debounced, and persisted directly in localStorage",
+      "Production build succeeded with exit code 0"
+    ]
+  }
+}
