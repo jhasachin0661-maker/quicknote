@@ -1,0 +1,3 @@
+:HL["/quicknote/_next/static/chunks/026mceg1eb9z5.css","style"]
+1:[["children",{"s":"__PAGE__","h":160}]]
+0:{"b":"bcepM5ekEW1IEQgPeEBXF","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
